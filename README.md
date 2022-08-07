@@ -27,3 +27,16 @@ Then a K-means model is created, and we experimentally find that the elbow point
 Whilst these clusters are interesting features of the data, they do not appear to correlate with whether a person is myopic, but seem to point to some other under-lying feature of the data that we were not aware of.
 
 ## Artificial Neural Network
+
+This model achieved 91.0% accuracy - a success.
+
+# Overall Conclusion
+To summarise: 
+
+Supervised learning found that whilst both Logistic Regression and Random Forests performed equally well on the test data, the Random Forest ensemble method over-fitted the training data and I would therefore prefer to use the logistic regression of the two.
+
+Unsupervised learning found that the data can be grouped into five rough clusters, although these clusters point to some as-yet unexplored feature of the data unrelated to myopia itself.
+
+The auto-tune found a Neural Network that achieved the highest accuracy of 91.0%, which in this case, works out as the most accurate model we have for the data.
+
+However, The dataset itself could be improved by introducing the degree to which myopia affects individuals, rather than being a binary classification problem. If we could have access to more detailed scores such as a measure of visual acuity, then perhaps we could find an even more useful model.
