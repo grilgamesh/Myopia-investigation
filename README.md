@@ -4,7 +4,7 @@
 
 The data are split into test and train data, and target column separated off. Values are scaled to simplify them for logisitic regression but not for random forest as this is unnecessary. Both models are ran and their overall accuracy scores on the test data are compared.
 
-<img src="Myopia-investigation/Resources/scat matrix.png">
+<img src="Myopia-investigation/Resources/scat%20matrix.png">
 
 ### Conclusion
 
