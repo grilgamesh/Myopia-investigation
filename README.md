@@ -24,9 +24,17 @@ A PCA model is initialised and set to reduce the dimensions of the data whilst p
 
 This reduced data is then fed into the tSNE algorithm, which demonstrates there are now five distinct clusters in the two-dimensional data, which can be seen on a scatter plot.
 
+<img src="/Resources/clusters.png">
+
+<img src="/Resources/knee.png">
+
 Then a K-means model is created, and we experimentally find that the elbow point is at k=5 (confirming what we saw in the scatter plot). We then look again at the scatter plot, but coloured by cluster number.
 
+<img src="/Resources/indentied_clusters.png">
+
 Whilst these clusters are interesting features of the data, they do not appear to correlate with whether a person is myopic, but seem to point to some other under-lying feature of the data that we were not aware of.
+
+<img src="/Resources/clusters-myopia.png">
 
 ## Artificial Neural Network
 
