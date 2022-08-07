@@ -24,9 +24,7 @@ A PCA model is initialised and set to reduce the dimensions of the data whilst p
 
 This reduced data is then fed into the tSNE algorithm, which demonstrates there are now five distinct clusters in the two-dimensional data, which can be seen on a scatter plot.
 
-<img src="/Resources/clusters.png">
-
-<img src="/Resources/knee.png">
+<img src="/Resources/clusters.png"> <img src="/Resources/knee.png">
 
 Then a K-means model is created, and we experimentally find that the elbow point is at k=5 (confirming what we saw in the scatter plot). We then look again at the scatter plot, but coloured by cluster number.
 
