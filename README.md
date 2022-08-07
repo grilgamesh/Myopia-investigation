@@ -1,6 +1,6 @@
 # Investigating Myopia
 
-##Unsupervised learning
+## Unsupervised learning
 
 Data is read in from csv format to a dataframe, previewed, and then the Myopic column is dropped so as to not bias the data set. The data is then scaled.
 
@@ -12,7 +12,7 @@ Then a K-means model is created, and we experimentally find that the elbow point
 
 Whilst these clusters are interesting features of the data, they do not appear to correlate with whether a person is myopic, but seem to point to some other under-lying feature of the data that we were not aware of.
 
-##Supervised learning
+## Supervised learning
 
 The data are split into test and train data, and target column separated off. Values are scaled to simplify them for logisitic regression but not for random forest as this is unnecessary. Both models are ran and their overall accuracy scores on the test data are compared.
 
