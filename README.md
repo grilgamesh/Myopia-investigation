@@ -4,6 +4,8 @@
 
 The data are split into test and train data, and target column separated off. Values are scaled to simplify them for logisitic regression but not for random forest as this is unnecessary. Both models are ran and their overall accuracy scores on the test data are compared.
 
+<img src="Myopia-investigation/Resources/scat%20matrix.png">
+
 ### Conclusion
 
 Both methods came down with a similar accuracy score: 89.0% for Logistic Regression and 87.1% for the Random Forest. This represents a fairly high confidence rate of predicting Myopia in both cases, but not certainty.
@@ -27,3 +29,16 @@ Then a K-means model is created, and we experimentally find that the elbow point
 Whilst these clusters are interesting features of the data, they do not appear to correlate with whether a person is myopic, but seem to point to some other under-lying feature of the data that we were not aware of.
 
 ## Artificial Neural Network
+
+This model achieved 91.0% accuracy - a success.
+
+# Overall Conclusion
+To summarise: 
+
+Supervised learning found that whilst both Logistic Regression and Random Forests performed equally well on the test data, the Random Forest ensemble method over-fitted the training data and I would therefore prefer to use the logistic regression of the two.
+
+Unsupervised learning found that the data can be grouped into five rough clusters, although these clusters point to some as-yet unexplored feature of the data unrelated to myopia itself.
+
+The auto-tune found a Neural Network that achieved the highest accuracy of 91.0%, which in this case, works out as the most accurate model we have for the data.
+
+However, The dataset itself could be improved by introducing the degree to which myopia affects individuals, rather than being a binary classification problem. If we could have access to more detailed scores such as a measure of visual acuity, then perhaps we could find an even more useful model.
