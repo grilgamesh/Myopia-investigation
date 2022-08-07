@@ -38,7 +38,9 @@ Whilst these clusters are interesting features of the data, they do not appear t
 
 ## Artificial Neural Network
 
-This model achieved 91.0% accuracy on correctly predicting myopia - I consider this a straightforward success.
+I set up a Tensorflow model to tune a neural network for accuracy, with parameters between 0 and 100 neurons in between 1 and 4 layers; also selecting for Relu or Tanh activation functions on the neurons.
+
+This hyper-parameter search finally achieved 91.0% accuracy on correctly predicting myopia - I consider this a straightforward success.
 
 # Overall Conclusion
 To summarise: 
