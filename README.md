@@ -4,6 +4,8 @@
 
 The data are split into test and train data, and target column separated off. Values are scaled to simplify them for logisitic regression but not for random forest as this is unnecessary. Both models are ran and their overall accuracy scores on the test data are compared.
 
+I always like to render a scatter matrix for a numerical dataset, in case any features are readily apparent:
+
 <img src="/Resources/scat_matrix.png">
 
 ### Conclusion
