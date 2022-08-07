@@ -4,6 +4,8 @@
 
 The data are split into test and train data, and target column separated off. Values are scaled to simplify them for logisitic regression but not for random forest as this is unnecessary. Both models are ran and their overall accuracy scores on the test data are compared.
 
+<img src="Myopia-investigation/Resources/scat matrix.png">
+
 ### Conclusion
 
 Both methods came down with a similar accuracy score: 89.0% for Logistic Regression and 87.1% for the Random Forest. This represents a fairly high confidence rate of predicting Myopia in both cases, but not certainty.
