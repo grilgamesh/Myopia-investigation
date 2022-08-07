@@ -38,7 +38,7 @@ Whilst these clusters are interesting features of the data, they do not appear t
 
 ## Artificial Neural Network
 
-This model achieved 91.0% accuracy - a success.
+This model achieved 91.0% accuracy on correctly predicting myopia - I consider this a straightforward success.
 
 # Overall Conclusion
 To summarise: 
