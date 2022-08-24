@@ -45,6 +45,9 @@ I set up a Tensorflow model to tune a neural network for accuracy, with paramete
 
 This hyper-parameter search finally achieved 91.0% accuracy on correctly predicting myopia - I consider this a straightforward success.
 
+![image](https://user-images.githubusercontent.com/98031776/186512827-b7f0f34f-1c98-4924-a67f-1a22e75a84d3.png)
+
+
 # Overall Conclusion
 To summarise: 
 
