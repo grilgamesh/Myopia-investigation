@@ -10,6 +10,9 @@ I always like to render a scatter matrix for a numerical dataset, in case any fe
 
 ### Conclusion
 
+![image](https://user-images.githubusercontent.com/98031776/186512668-5b9169e8-4922-4bb2-951d-01689debe756.png)
+
+
 Both methods came down with a similar accuracy score: 89.0% for Logistic Regression and 87.1% for the Random Forest. This represents a fairly high confidence rate of predicting Myopia in both cases, but not certainty.
 
 However, The random forest entirely over-fitted the training data, realising 100% accurary. Since it could not replicate this in testing, this is a disadvantage.
