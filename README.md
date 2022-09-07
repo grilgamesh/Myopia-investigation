@@ -1,5 +1,15 @@
 # Investigating Myopia
 
+An investigation to see what patterns machine learning can pick up on the classic Myopia dataset. With what certainty can we predict whether a person is myopic, based on the given information about them?
+
+## Technology implemented:
+* Python
+* Pandas
+* Jupyter Notebook
+* Matplotlib
+* Scikitlearn
+* Tensorflow
+
 ## Supervised learning
 
 The data are split into test and train data, and target column separated off. Values are scaled to simplify them for logisitic regression but not for random forest as this is unnecessary. Both models are ran and their overall accuracy scores on the test data are compared.
@@ -58,10 +68,3 @@ Unsupervised learning found that the data can be grouped into five rough cluster
 The auto-tune found a Neural Network that achieved the highest accuracy of 91.0%, which in this case, works out as the most accurate model we have for the data.
 
 However, The dataset itself could be improved by introducing the degree to which myopia affects individuals, rather than being a binary classification problem. If we could have access to more detailed scores such as a measure of visual acuity, then perhaps we could find an even more useful model.
-
-## Technology implemented:
-* Python
-* Jupyter Notebook
-* Matplotlib
-* Scikitlearn
-* Tensorflow
