@@ -1,6 +1,6 @@
 # Investigating Myopia
 
-An investigation to see what patterns machine learning can pick up on the classic Myopia dataset. With what certainty can we predict whether a person is myopic, based on the given information about them?
+An investigation to see what patterns machine learning can pick up on a supplied Myopia dataset. With what certainty can we predict whether a person is myopic, based on the given information about them?
 
 ## Technology implemented:
 * Python
