@@ -60,12 +60,8 @@ The auto-tune found a Neural Network that achieved the highest accuracy of 91.0%
 However, The dataset itself could be improved by introducing the degree to which myopia affects individuals, rather than being a binary classification problem. If we could have access to more detailed scores such as a measure of visual acuity, then perhaps we could find an even more useful model.
 
 ## Technology implemented:
-### General
 * Python
 * Jupyter Notebook
-** Pandas
-
-### Supervised Learning
-### Unsupervised Learning
-### Neural Network
+* Matplotlib
+* Scikitlearn
 * Tensorflow
